@@ -1,0 +1,10 @@
+<?php
+session_start();
+unset($_SESSION["dep"]);
+unset($_SESSION["rollno"]);
+unset($_SESSION["term"]);
+unset($_SESSION["course"]);
+unset($_SESSION["us"]);
+unset($_SESSION["pwd"]);
+header("Location:adm_login.php");
+?>
